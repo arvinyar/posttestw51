@@ -5,7 +5,7 @@
  
  var personLogic = require('./domain/person/person.logic')
  var person1 = new personLogic(name, nik, dob);
-person1.print(person1.name,person1.getWeekType(), person1.getAge());
+person1.print();
 
 
 // ======

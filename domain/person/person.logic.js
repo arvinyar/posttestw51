@@ -21,13 +21,13 @@ class personLogic {
     var diffDate = new Date(diff)
     return Math.abs(diffDate.getUTCFullYear() - 1970)
   }
-  print(name, weekType, age){
-    if (weekType === 'Weekday' || weekType === 'Weekend') {
-    console.log(`${name} lahir pada tipe minggu ${weekType}`)
+  print(){
+    if (this.getWeekType() === 'Weekday' || this.getWeekType() === 'Weekend') {
+    console.log(`${this.name} lahir pada tipe minggu ${this.getWeekType()}`)
   } else {
-    console.log(`Tanggal lahir ${name} bermasalah`)  
+    console.log(`Tanggal lahir ${this.name} bermasalah`)  
   }
-  console.log(`Saat ini berumur ${age}`)
+  console.log(`Saat ini berumur ${this.getAge()}`)
   }
 }
 

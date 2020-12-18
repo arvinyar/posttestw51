@@ -11,7 +11,7 @@ class personLogic {
           } else if(day === 0 || day === 6) {
             return "Weekend"      
           } else {
-            return "Birth of date not valid"  
+            return 0  
           }
   }
   getAge() {

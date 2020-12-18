@@ -1,6 +1,6 @@
- const name = 'Tata'
- const nik = '6403052010930001'
- const dob = '1985-10-20'
+ const name = 'Arvin'
+ const nik = '3172021710920004'
+ const dob = '1992-10-17'
  
  
  var personLogic = require('./domain/person/person.logic')
